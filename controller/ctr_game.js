@@ -1,10 +1,10 @@
 goog.provide('fph.Controller.Game');
 
 goog.require('lime.SpriteSheet');
-goog.require('lime.ASSETS.Poker_Card_Clover_Pc.json');
-goog.require('lime.ASSETS.Poker_Card_Diamond_Pc.json');
-goog.require('lime.ASSETS.Poker_Card_Heart_Pc.json');
-goog.require('lime.ASSETS.Poker_Card_Spade_Pc.json');
+goog.require('assets.Poker_Card_Clover_Pc.json');
+goog.require('assets.Poker_Card_Diamond_Pc.json');
+goog.require('assets.Poker_Card_Heart_Pc.json');
+goog.require('assets.Poker_Card_Spade_Pc.json');
 goog.require('lime.parser.JSON');
 goog.require('lime.animation.FadeTo');
 
@@ -20,10 +20,10 @@ goog.require('fph.PopupLayer');
  * @return
  */
 fph.Controller.Game.loadImages = function () {
-	fph.Poker_Card_Clover_Pc = new lime.SpriteSheet('assets/Poker_Card_Clover_Pc.png', lime.ASSETS.Poker_Card_Clover_Pc.json, lime.parser.JSON);
-	fph.Poker_Card_Diamond_Pc = new lime.SpriteSheet('assets/Poker_Card_Diamond_Pc.png', lime.ASSETS.Poker_Card_Diamond_Pc.json, lime.parser.JSON);
-	fph.Poker_Card_Heart_Pc = new lime.SpriteSheet('assets/Poker_Card_Heart_Pc.png', lime.ASSETS.Poker_Card_Heart_Pc.json, lime.parser.JSON);
-	fph.Poker_Card_Spade_Pc = new lime.SpriteSheet('assets/Poker_Card_Spade_Pc.png', lime.ASSETS.Poker_Card_Spade_Pc.json, lime.parser.JSON);
+	fph.Poker_Card_Clover_Pc = new lime.SpriteSheet('assets/Poker_Card_Clover_Pc.png', assets.Poker_Card_Clover_Pc.json, lime.parser.JSON);
+	fph.Poker_Card_Diamond_Pc = new lime.SpriteSheet('assets/Poker_Card_Diamond_Pc.png', assets.Poker_Card_Diamond_Pc.json, lime.parser.JSON);
+	fph.Poker_Card_Heart_Pc = new lime.SpriteSheet('assets/Poker_Card_Heart_Pc.png', assets.Poker_Card_Heart_Pc.json, lime.parser.JSON);
+	fph.Poker_Card_Spade_Pc = new lime.SpriteSheet('assets/Poker_Card_Spade_Pc.png', assets.Poker_Card_Spade_Pc.json, lime.parser.JSON);
 };
 
 /**
