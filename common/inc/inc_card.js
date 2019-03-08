@@ -3,7 +3,7 @@ goog.provide('fph.inc_card');
 
 // Card image path
 fph.CARD_IMAGE_BACK = 'assets/Back_Pc.png';
-fph.CARD_IMAGE_MINE = 'assets/mine2.jpg';
+fph.CARD_IMAGE_MINE = 'assets/mine.png';
 
 // define card kind
 fph.CARD_CLOVER = 'c';
